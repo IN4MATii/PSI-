@@ -32,3 +32,22 @@ nazwa=imie + ' ' + nazwisko
 print(nazwa[0:16:-1])
 
 # 6
+lista=[1,2,3,4,5,6,7,8,9,10]
+print(lista)
+lista1=[]
+for i in range(0, 5, 1):
+        lista1.insert(lista[i],i+1)
+        res=[i for i in lista if i not in lista1]
+
+print(res)
+print(lista1)
+
+# 7
+lista2=lista1 + res
+lista3=[0]
+lista3=lista3+lista2
+print(lista3)
+lista4=lista3
+lista4.sort(reverse=True)
+print(lista4)
+

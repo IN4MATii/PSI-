@@ -1,3 +1,4 @@
+from decimal import *
 # 1
 lorem = 'Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. ' \
         'Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. ' \
@@ -58,3 +59,18 @@ student3=('Jaroslaw Kaczynski', 333333)
 student4=('Janusz Korwin-Mikke', 444444)
 krotka_studentow=student1,student2,student3,student4
 print(krotka_studentow)
+
+# 10
+numery=[111222333,555666000,111222333,444111222,333999888]
+print(numery)
+numery_zbior=set(numery)
+print(numery_zbior)
+
+# 11
+for i in range(1,11):
+        print(i)
+
+# 12
+for i in range(100,20,-5):
+        print(i)
+

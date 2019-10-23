@@ -51,3 +51,10 @@ lista4=lista3
 lista4.sort(reverse=True)
 print(lista4)
 
+# 8
+student1=('Jacek Zielonka',111111)
+student2=('Kamiln Borkowski', 222222)
+student3=('Jaroslaw Kaczynski', 333333)
+student4=('Janusz Korwin-Mikke', 444444)
+krotka_studentow=student1,student2,student3,student4
+print(krotka_studentow)

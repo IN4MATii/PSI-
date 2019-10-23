@@ -13,3 +13,22 @@ litera_2=nazwisko[:3]
 x=lorem.count(litera_1)
 z=lorem.count(litera_2)
 print('W tekście jest %i liter "%s" oraz %i liter "%s"' % (x, litera_1, z,litera_2))
+
+# 4
+zmienna_typu_string='fajna zmienna typu string'
+#print(dir(zmienna_typu_string))
+#help(zmienna_typu_string.isalpha())
+# def isalpha(self, *args, **kwargs):  # real signature unknown
+#       """
+#        Return True if the string is an alphabetic string, False otherwise.
+#
+#        A string is alphabetic if all characters in the string are alphabetic and there
+#        is at least one character in the string.
+#        """
+#        pass
+
+# 5
+nazwa=imie + ' ' + nazwisko
+print(nazwa[0:16:-1])
+
+# 6
